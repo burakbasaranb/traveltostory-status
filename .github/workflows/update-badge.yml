@@ -1,0 +1,34 @@
+name: Update Last Update Badge
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Badge
+        run: |
+          timestamp=$(date +%s)
+          echo "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='20'>
+          <rect width='200' height='20' fill='#555'/>
+          <rect x='80' width='120' height='20' fill='#4c1'/>
+          <text x='40' y='14' fill='#fff' font-size='12'>last update</text>
+          <text x='140' y='14' fill='#fff' font-size='12'>${timestamp}</text>
+          </svg>" > last_update.svg
+
+      - name: Commit Badge
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "UpdateBot"
+          git add last_update.svg
+          git commit -m "Update badge" || echo "No changes"
+          git push
