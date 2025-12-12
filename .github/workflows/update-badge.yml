@@ -30,7 +30,6 @@ jobs:
               <stop offset='0' stop-color='#555' stop-opacity='1'/>
               <stop offset='1' stop-color='#444' stop-opacity='1'/>
             </linearGradient> 
-            
             <linearGradient id='valueBg' x1='0' x2='0' y1='0' y2='1'>
               <stop offset='0' stop-color='#4caf50' stop-opacity='1'/>
               <stop offset='1' stop-color='#388e3c' stop-opacity='1'/>
