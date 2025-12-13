@@ -23,6 +23,7 @@ jobs:
           label_width=110
           value_width=$((date_length * 7 + 20))
           total_width=$((label_width + value_width))
+          random_cache=$(shuf -i 1000000-9999999 -n 1)
 
           echo "<svg xmlns='http://www.w3.org/2000/svg' width='${total_width}' height='20'>
           <defs>
@@ -42,12 +43,13 @@ jobs:
           <rect x='${label_width}' y='0' width='${value_width}' height='20' fill='url(#valueBg)' clip-path='url(#rounded-right)'/>
           <text x='12' y='14' fill='#fff' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='11' font-weight='500'>Last Update</text>
           <text x='$((label_width + 10))' y='14' fill='#fff' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='11' font-weight='600'>${date_str}</text>
+          <text x='0' y='0' fill='#555' font-size='0' opacity='0'>${random_cache}</text>
           </svg>" > last_update.svg
 
       - name: Update README with cache-busting
         run: |
-          timestamp=$(date +%s%3N)
-          sed -i "s/last_update\.svg?v=[0-9]*/last_update.svg?v=${timestamp}/" README.md || sed -i "s/last_update\.svg/last_update.svg?v=${timestamp}/" README.md
+          random_int=$(shuf -i 1000000-9999999 -n 1)
+          sed -i "s/last_update\.svg?v=[0-9]*/last_update.svg?v=${random_int}/" README.md || sed -i "s/last_update\.svg/last_update.svg?v=${random_int}/" README.md
 
       - name: Commit Badge
         run: |
