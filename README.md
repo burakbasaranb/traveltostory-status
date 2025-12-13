@@ -1,12 +1,8 @@
 # Travel To Story - Project Status
 
-<<<<<<< HEAD
 ![Production Date](https://img.shields.io/badge/Production-13%20Dec%202025-blue)
 
-![Last Update](https://raw.githubusercontent.com/burakbasaranb/traveltostory-status/main/last_update.svg?v=1765654762)
-=======
 ![Last Update](https://raw.githubusercontent.com/burakbasaranb/traveltostory-status/main/last_update.svg?v=1765655410815)
->>>>>>> 9bce5cae2c8b86bb14c70df3119be2864bca8248
 
 This page automatically displays the last update time of the project.
 
