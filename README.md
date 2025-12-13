@@ -1,32 +1,32 @@
-# TravelToStory - Project Status
+# Travel To Story - Project Status
 
 ![Last Update](https://raw.githubusercontent.com/burakbasaranb/traveltostory-status/main/last_update.svg?v=1765633167)
 
 This page automatically displays the last update time of the project.
 
-**Seyahat planlarınızı oluşturun, paylaşın ve hikayelerinizi anlatın**
+---
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php)](https://www.php.net/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+## 🌍 Travel to Story
 
-</div>
+**Create your travel plans, share them, and tell your stories**
+
+Visit **[traveltostory.com](https://traveltostory.com)** to start planning your next adventure!
 
 ---
 
-## 📖 Hakkında
+## 📖 About
 
-**Travel to Story**, seyahat tutkunlarının seyahat planlarını oluşturmasına, düzenlemesine ve toplulukla paylaşmasına olanak tanıyan modern bir web uygulamasıdır. Kullanıcılar detaylı rota planları hazırlayabilir, lokasyonlar ekleyebilir, aktiviteler ve konaklama bilgilerini kaydedebilir, bütçelerini yönetebilir ve seyahat hikayelerini diğer gezginlerle paylaşabilir.
+**Travel to Story** is a modern web application that enables travel enthusiasts to create, manage, and share their travel plans with the community. Users can create detailed route plans, add locations, record activities and accommodation information, manage their budgets, and share their travel stories with other travelers.
 
-### ✨ Temel Özellikler
+### ✨ Key Features
 
-- 🗺️ **Seyahat Planları**: Detaylı seyahat planları oluşturun ve yönetin
-- 📍 **Lokasyon Yönetimi**: Harita üzerinde lokasyonlar ekleyin, düzenleyin ve rotalar çizin
-- 🎯 **Aktivite Takibi**: Her lokasyon için aktiviteler, konaklama ve ulaşım bilgileri ekleyin
-- 💰 **Bütçe Yönetimi**: Seyahat bütçenizi takip edin ve harcamalarınızı kaydedin
-- 👥 **Sosyal Özellikler**: Planları beğenin, takip edin ve paylaşın
-- 🏆 **Gamification**: Puan kazanın, rozetler toplayın ve liderlik tablosunda yükselin
-- 💬 **Yorum Sistemi**: Planlar hakkında yorum yapın ve tartışın
-- 🔔 **Bildirimler**: Etkileşimler ve güncellemeler hakkında anlık bildirimler alın
-- 🌍 **Çoklu Dil Desteği**: Türkçe ve İngilizce dil desteği
-- 🔐 **Sosyal Medya Girişi**: Google ve diğer platformlarla hızlı giriş
+- 🗺️ **Travel Plans**: Create and manage detailed travel plans
+- 📍 **Location Management**: Add, edit locations on the map and draw routes
+- 🎯 **Activity Tracking**: Add activities, accommodation, and transportation information for each location
+- 💰 **Budget Management**: Track your travel budget and record your expenses
+- 👥 **Social Features**: Like, follow, and share plans
+- 🏆 **Gamification**: Earn points, collect badges, and climb the leaderboard
+- 💬 **Comment System**: Comment and discuss about plans
+- 🔔 **Notifications**: Receive instant notifications about interactions and updates
+- 🌍 **Multi-language Support**: Turkish and English language support
+- 🔐 **Social Media Login**: Quick login with Google and other platforms
