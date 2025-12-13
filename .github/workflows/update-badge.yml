@@ -46,7 +46,7 @@ jobs:
 
       - name: Update README with cache-busting
         run: |
-          timestamp=$(date +%s)
+          timestamp=$(rand -base64 10)
           sed -i "s/last_update\.svg?v=[0-9]*/last_update.svg?v=${timestamp}/" README.md || sed -i "s/last_update\.svg/last_update.svg?v=${timestamp}/" README.md
 
       - name: Commit Badge
