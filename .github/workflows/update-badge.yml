@@ -44,10 +44,15 @@ jobs:
           <text x='$((label_width + 10))' y='14' fill='#fff' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='11' font-weight='600'>${date_str}</text>
           </svg>" > last_update.svg
 
+      - name: Update README with cache-busting
+        run: |
+          timestamp=$(date +%s)
+          sed -i "s/last_update\.svg?v=[0-9]*/last_update.svg?v=${timestamp}/" README.md || sed -i "s/last_update\.svg/last_update.svg?v=${timestamp}/" README.md
+
       - name: Commit Badge
         run: |
           git config --global user.email "bot@github.com"
           git config --global user.name "UpdateBot"
-          git add last_update.svg
+          git add last_update.svg README.md
           git commit -m "Update badge" || echo "No changes"
           git push
