@@ -2,7 +2,7 @@
 
 ![Production Date](https://img.shields.io/badge/Production-13%20Dec%202025-blue)
 
-![Last Update](https://raw.githubusercontent.com/burakbasaranb/traveltostory-status/main/last_update.svg?v=1765655909702)
+![Last Update](https://raw.githubusercontent.com/burakbasaranb/traveltostory-status/main/last_update.svg)
 
 This page automatically displays the last update time of the project.
 
