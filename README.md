@@ -32,3 +32,4 @@ Visit **[traveltostory.com](https://traveltostory.com)** to start planning your 
 - 🔔 **Notifications**: Receive instant notifications about interactions and updates
 - 🌍 **Multi-language Support**: Turkish and English language support
 - 🔐 **Social Media Login**: Quick login with Google and other platforms
+- 📚 **AI Story Generator**: Create location-based travel stories with AI - read or listen anytime
