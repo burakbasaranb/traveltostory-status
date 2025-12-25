@@ -15,6 +15,6 @@
 <rect width='277' height='20' fill='url(#bg)' rx='3'/>
 <rect x='110' y='0' width='167' height='20' fill='url(#valueBg)' clip-path='url(#rounded-right)'/>
 <text x='12' y='14' fill='#fff' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='11' font-weight='500'>Last Update</text>
-<text x='120' y='14' fill='#fff' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='11' font-weight='600'>25 Dec 2025 16:30 UTC</text>
-<text x='0' y='0' fill='#555' font-size='0' opacity='0'>5239216</text>
+<text x='120' y='14' fill='#fff' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='11' font-weight='600'>25 Dec 2025 20:21 UTC</text>
+<text x='0' y='0' fill='#555' font-size='0' opacity='0'>7646530</text>
 </svg>
