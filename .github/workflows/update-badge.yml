@@ -49,7 +49,7 @@ jobs:
       - name: Update README with cache-busting
         run: |
           random_int=$(shuf -i 1000000-9999999 -n 1)
-          sed -i "s/last_update\.svg?v=[0-9]*/last_update.svg?v=${random_int}/" README.md || sed -i "s/last_update\.svg/last_update.svg?v=${random_int}/" README.md
+          sed -i "s/last_update\.svg?v=[0-9]*/last_update.svg?v=${random_int}/" README.md || sed -i "s/last_update\.svg?v=${random_int}/last_update.svg?v=${random_int}/" README.md
 
       - name: Commit Badge
         run: |
